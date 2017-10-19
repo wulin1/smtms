@@ -9,6 +9,8 @@ import cn.jbit.biz.ReceptionBiz;
  * 前台 控制器
  * @author吴林
  * @return
+ * 
+ *
  */
 @Controller
 @RequestMapping("/Reception")
@@ -22,7 +24,7 @@ public class Reception {
 	 */
 	@RequestMapping("/devlogin.html")
 	public String devlogin(){
-		//霸
+		
 		return "devlogin";
 	}
 	
@@ -31,8 +33,8 @@ public class Reception {
 	 */
 	@RequestMapping("/main.html")
 	public String main(){
-		//123
 		return "developer/main";
 	}
+	/////
 	
 }

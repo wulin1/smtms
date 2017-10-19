@@ -9,5 +9,9 @@ import cn.jbit.pojo.Backend_user;
  */
 public interface ReceptionBiz {
 	
-  public Backend_user getLoginUser();
+	/**
+	 * µÇÂ¼
+	 * @return
+	 */
+	public Backend_user getLoginUser();
 }

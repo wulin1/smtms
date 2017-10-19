@@ -11,6 +11,9 @@ public class ReceptionBizImpl implements ReceptionBiz  {
 	@Autowired
 	private ReceptionMapper receptionMapper;
 
+	/**
+	 * µÇÂ¼
+	 */
 	@Override
 	public Backend_user getLoginUser() {
 		
