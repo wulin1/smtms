@@ -31,6 +31,7 @@ public class Reception {
 	 */
 	@RequestMapping("/main.html")
 	public String main(){
+		//123
 		return "developer/main";
 	}
 	
