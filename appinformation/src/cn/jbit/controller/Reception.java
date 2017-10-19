@@ -35,6 +35,6 @@ public class Reception {
 	public String main(){
 		return "developer/main";
 	}
-	/////
+	/////////
 	
 }
