@@ -8,5 +8,11 @@ import cn.jbit.pojo.Backend_user;
  *
  */
 public interface BackstageBiz {
+	
+	
+	/**
+	 * we
+	 * @return
+	 */
 	 public Backend_user getLoginUser();
 }
