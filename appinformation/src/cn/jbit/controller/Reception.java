@@ -22,7 +22,7 @@ public class Reception {
 	 */
 	@RequestMapping("/devlogin.html")
 	public String devlogin(){
-		//∞‘ÃÏ
+		//∞‘
 		return "devlogin";
 	}
 	
