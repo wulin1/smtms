@@ -11,7 +11,7 @@ public interface BackstageBiz {
 	
 	
 	/**
-	 * we
+	 * ¹þ¹þ
 	 * @return
 	 */
 	 public Backend_user getLoginUser();
