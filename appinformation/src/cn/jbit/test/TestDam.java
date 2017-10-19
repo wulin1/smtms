@@ -15,15 +15,13 @@ import cn.jbit.pojo.Backend_user;
 public class TestDam {
 	ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext-mybatis.xml");
 	TestBiz ub = (TestBiz)context.getBean("TestBiz");
+	
 	@Test
-		public void testFind() {
-			
-			List<Backend_user> list = ub.test();
-			
-			for (Backend_user user2 : list) {
-				System.out.println("用户名:"+user2.getUserName());
-			}
-			
+	public void testFind() {
+		List<Backend_user> list = ub.test();
+		
+		for (Backend_user user2 : list) {
+			System.out.println("用户名:"+user2.getUserName());
+		}
 	}
-
 }

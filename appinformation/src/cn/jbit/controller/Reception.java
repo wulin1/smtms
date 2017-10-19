@@ -8,7 +8,7 @@ import cn.jbit.biz.ReceptionBiz;
 /**
  * 前台 控制器
  * @author吴林
- *
+ *hahahah
  */
 @Controller
 @RequestMapping("/Reception")
