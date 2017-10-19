@@ -18,8 +18,9 @@ public class Reception {
 	
 	/**
 	 * 进入开发者登录页面
-	 * @return
+	 * 
 	 */
+	
 	@RequestMapping("/devlogin.html")
 	public String devlogin(){
 		return "devlogin";
@@ -32,5 +33,8 @@ public class Reception {
 	public String main(){
 		return "developer/main";
 	}
+	/**
+	 * 
+	 */
 	
 }
