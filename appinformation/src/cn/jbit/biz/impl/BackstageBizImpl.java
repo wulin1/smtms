@@ -11,10 +11,9 @@ public class BackstageBizImpl implements BackstageBiz {
 	@Autowired
 	private BackstageMapper backstageMapper;
 
-	/*
-	 * (non-Javadoc)
-	 * @see cn.jbit.biz.BackstageBiz#getLoginUser()
-	 */
+/**
+ * Œ‚¡÷
+ */
 	@Override
 	public Backend_user getLoginUser() {
 		return backstageMapper.getLoginUser();
